@@ -1,0 +1,12 @@
+pharma_project:
+  outputs:
+    dev:
+      catalog: pharma
+      host: dbc-d6558738-fc40.cloud.databricks.com
+      http_path: your_http_path
+      schema: dbt_schema
+      threads: 1
+      token: your_databricks_token
+      type: databricks
+  target: dev
+
